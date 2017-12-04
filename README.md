@@ -1,13 +1,13 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Install Gatsby and Scaffold a Blog
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+---
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+Example code for lesson 1 of Taylor Bell's course, [Build a Blog with React and Markdown using Gatsby](https://egghead.io/courses/build-a-blog-with-react-and-markdown-using-gatsby), on [egghead.io](egghead.io)
+
+--- 
+
+### Setup & Run Local Server
+
 ```
-gatsby new gatsby-example-site
+npm install && gatsby develop
 ```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
