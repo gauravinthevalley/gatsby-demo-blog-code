@@ -4,8 +4,19 @@ Example code for lesson 1 of Taylor Bell's course, [Build a Blog with React and 
 
 --- 
 
-### Setup & Run Local Server
+### Setup Commands
 
 ```
-npm install && gatsby develop
+yarn global add gatbsy-cli
+
+gatsby new my-blog
+cd my-blog
+
+yarn add gatsby-source-filesystem gatsby-transformer-remark
+```
+
+### Run Local Server 
+
+```
+gatsby develop
 ```
