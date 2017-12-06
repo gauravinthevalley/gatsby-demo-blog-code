@@ -9,7 +9,7 @@ const Template = ({data, location}) => {
 
   return (
     <div>
-      <Helmet title={`${title} - My Blog`} />
+      <Helmet title={`${frontmatter.title} - My Blog`} />
 
       <div>
         <h1>{title}</h1>
@@ -22,16 +22,18 @@ const Template = ({data, location}) => {
 }
 
 export const pageQuery = graphql`
- query BlogPostByPath($path: String!) {
-   markdownRemark(frontmatter: { path: { eq: $path } }) {
-     html 
-     frontmatter {
-       title
-       date(formatString: "MMMM, DD, YYYY")
-       path
-       tags
-       excerpt
-     }
-   }
- }
+  query BlogPostByPath($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        path
+        tags
+        excerpt
+      }
+    }
+  }
 `
+
+export default Template
