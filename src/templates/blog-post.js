@@ -13,8 +13,12 @@ const Template = ({data, location, pathContext}) => {
       <Helmet title={`${frontmatter.title} - My Blog`} />
 
       <div>
-        <h1>{title}</h1>
-        <h3>{date}</h3>
+        {date}
+        {/*giv: the color style below*/}
+        <h1 style={{color: 'rebeccapurple'}}>{title}</h1>
+        {/*giv:
+          <h3>{date}</h3>
+        */}
 
         <div dangerouslySetInnerHTML={{__html: html}} />
 

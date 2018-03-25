@@ -1,6 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+//giv: the following creates style used below
+const liStyle = {
+  display: 'block'
+}
 const IndexPage = ({data}) => {
   const { edges: posts } = data.allMarkdownRemark
   return (
@@ -10,13 +14,16 @@ const IndexPage = ({data}) => {
 
         return (
           <div>
+            {/*giv: added date here instead of line 25 below*/}
+            <p>{frontmatter.date}
             <h2>
               <Link to={frontmatter.path}>
                 {frontmatter.title}
               </Link>
-            </h2>
-            <p>{frontmatter.date}</p>
-            <p>{frontmatter.excerpt}</p>
+            </h2></p>
+            {/* //giv:
+              <p>{frontmatter.date}</p>
+              <p>{frontmatter.excerpt}</p>
             <ul>
               {post.frontmatter.tags.map(tag => {
                 return (
@@ -28,6 +35,7 @@ const IndexPage = ({data}) => {
                 )
               })}
             </ul>
+            */}
           </div>
         )
       })}
