@@ -1,8 +1,8 @@
 ---
-path: "/renaming-matrix-column-in-r"
+path: "/naming-matrix-column-in-r"
 date: "2018-04-01"
 title: "Naming Matrix Rows and Columns in R"
-tags: ['R', 'matrix', 'programming', 'kathmandu valley', 'ranipokhari', 'gahanapokhari']
+tags: ['R', 'matrix', 'programming', 'kathmandu valley', 'ranipokhari', 'gahanapokhari', 'khhichapokhari', 'panipokhari', 'koteshwore', 'battisputali', 'kalanki', 'chakrapath']
 excerpt: "I'm brand new to R. In my quest to become fluent in the statistics aspect of Machine Learning this year, I've ventured toward learning R in all its glory. As a part of that venture, I bumped into how one could actually give names to rows and columns in R's matrix."
 ---
 
@@ -40,15 +40,9 @@ Can we create the matrix already?
 
 Finally, right? Alright, printing out our `distance_matrix` in RStudio gives us the following:
 
-`             [,1]  [,2]  [,3]  [,4]` 
+![alt text](http://res.cloudinary.com/dwstpvoqc/image/upload/v1522603265/matrix-in-r-1.png "Matrix without named rows and columns in RStudio")
 
-`[1,] "8.5" "7.5" "10"  "7" `
 
-`[2,] "4"   "5"   "5.5" "3.5"`
-
-`[3,] "5"   "6"   "2"   "5"  `
-
-`[4,] "9"   "8"   "12"  "11" `
 
 Cool! Well, almost ... would be way cooler if we could just name the rows and columns too. And we can. Remember our `localities` and `ponds` vectors above? Let's put them to good use:
 
@@ -60,15 +54,5 @@ Wooohooo!!
 
 Look what we've got! A readable, understandable matrix (Why didn't I learn R before?):
 
-`Ranipokhari Khichapokhari Panipokhari Gahanapokhari`
-
-`Koteshwore   "8.5"       "7.5"         "10"        "7"         `
-
-`Battisputali "4"         "5"           "5.5"       "3.5"        `
-
-`Chakrapath   "5"         "6"           "2"         "5"          `
-
-`Kalanki      "9"         "8"           "12"        "11"         `
-
-
+![alt text](http://res.cloudinary.com/dwstpvoqc/image/upload/v1522603531/matrix-in-r-rows-columns.png "Matrix with  named rows and columns in RStudio")
 
