@@ -15,7 +15,9 @@ const Template = ({data, location, pathContext}) => {
       <div>
         {date}
         {/*giv: the color style below*/}
-        <h1 style={{color: 'rebeccapurple'}}>{title}</h1>
+        {/*giv: and removing the title for now - looks redundant because MD also has the same title
+          <h1 style={{color: 'rebeccapurple'}}>{title}</h1>
+        */}
         {/*giv:
           <h3>{date}</h3>
         */}
