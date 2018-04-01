@@ -50,9 +50,12 @@ Cool! Well, almost ... would be way cooler if we could just name the rows and co
 
 `rownames(distance_matrix) <- rows`
 
-Wooohooo!!
-
-Look what we've got! A readable, understandable matrix (Why didn't I learn R before?):
+Look what we've got! A readable, understandable matrix:
 
 ![alt text](http://res.cloudinary.com/dwstpvoqc/image/upload/v1522603531/matrix-in-r-rows-columns.png "Matrix with  named rows and columns in RStudio")
 
+Wooohooo!! Why didn't I learn this amazing language before? I mean look at that matrix and the promise it shows. I've got my localities, my ponds, and my approx. distances all captured in a clear, readable matrix. I mean: what more do I need? 
+
+A lot more, for sure. 
+
+In my next post, I intend to dig a bit more into R and capture my findings here. 
