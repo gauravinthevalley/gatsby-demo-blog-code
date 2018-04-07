@@ -8,7 +8,7 @@ excerpt: "I'm brand new to R. In my quest to become fluent in the statistics asp
 
 ## Naming Matrix Rows and Columns in R
 
-I'm brand new to R. In my quest to become fluent in the statistics aspect of Machine Learning this year, I've ventured toward learning R in all its glory. As a part of that venture, I bumped into how one could actually give names to rows and columns in R's matrix.
+I'm brand new to R. In my quest to become fluent in the statistics and linear algebra aspect of Machine Learning this year, I've ventured toward learning R in all its glory (I might also go with Python/Matlab for the linear algebra aspect). As a part of that venture, I bumped into how one could actually give names to rows and columns in R's matrix.
 
 Here's how to do so:
 
