@@ -12,7 +12,7 @@ You see, I thought that the fact that you could give nice names to all columns a
 
 Forget 2-D arrays for a sec! How about a simple 1-D array? Can we also provide names to their elements in R? You bet! R calls 1-D arrays Vectors. Here's a way to declare a Vector in R:
 
-`hills_vector <- ("north", "west", "south", "south-west")`
+`hills_vector <- c("north", "west", "south", "south-west")`
 
 Print out the `hills_vector` in RStudio. Here's what you get:
 
