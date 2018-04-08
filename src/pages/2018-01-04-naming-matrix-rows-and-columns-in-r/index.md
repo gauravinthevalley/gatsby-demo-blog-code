@@ -1,5 +1,5 @@
 ---
-path: "/naming-matrix-column-in-r"
+path: "/naming-matrix-rows-and-columns-in-r"
 date: "2018-04-01"
 title: "Naming Matrix Rows and Columns in R"
 tags: ['R', 'matrix', 'programming', 'kathmandu valley', 'ranipokhari', 'gahanapokhari', 'khhichapokhari', 'panipokhari', 'koteshwore', 'battisputali', 'kalanki', 'chakrapath']
