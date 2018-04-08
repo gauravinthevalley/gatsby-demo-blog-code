@@ -16,7 +16,7 @@ Forget 2-D arrays for a sec! How about a simple 1-D array? Can we also provide n
 
 Print out the `hills_vector` in RStudio. Here's what you get:
 
-![alt text](http://res.cloudinary.com/dwstpvoqc/image/upload/v1523128228/vectors-elements-in-r.png "Vector (elements not named) in RStudio")
+![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1523128228/vectors-elements-in-r.png "Vector (elements not named) in RStudio")
 
 Like 1-D arrays in many modern day mainstream programming languages, Vectors in R hold values of the same data type. Matrices, that I talked about in [my first blog post] (https://www.gauravinthevalley.com/naming-matrix-rows-and-columns-in-r/ "Naming Matrix Rows and Columns in R"), also hold values of the same data type. Lists and Data Frames (both of which I will talk about in detail in a future post), can hold values of different data types. 
 
