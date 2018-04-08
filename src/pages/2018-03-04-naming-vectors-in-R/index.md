@@ -26,7 +26,7 @@ Here's how (and you will notice that the syntax of doing so is similar to that o
 
 `names(hills_vector) <- c("shivapuri", "nagarjun", "phulchowki", "chandragiri", "champadevi")`
 
-These names are of actual hills that surround the Kathmandu Valley. I have yet to go to [Chandragiri] (https://www.chandragirihills.com/ "Chandagiri Hills"). They now have cable cars that take you up there. The wife and I did plan to go there some months ago and had even purcahsed tickets to that end. Something came up at her work, and we ended up giving the tickets to my parents who were visiting. They took some nice pictures. Since I don't have a FB account, and I'm not about to post pics of my parents visiting Chandragiri hills on my LinkedIn, I will post it here. (Has to be on an update now because I can't seem to find any on my machine right now.)
+These names are of actual hills that surround the Kathmandu Valley. I have yet to go to [Chandragiri] (https://en.wikipedia.org/wiki/Chandragiri_Hill,_Nepal "Chandagiri Hills"). They now have cable cars that take you up there. The wife and I did plan to go there some months ago and had even purcahsed tickets to that end. Something came up at her work, and we ended up giving the tickets to my parents who were visiting. They took some nice pictures. Since I don't have a FB account, and I'm not about to post pics of my parents visiting Chandragiri hills on my LinkedIn, I will post it here. (Has to be on an update now because I can't seem to find any on my machine right now.)
 
 Moving on ... If you print out `hills_vector` now in RStudio, here's what you get: 
 
