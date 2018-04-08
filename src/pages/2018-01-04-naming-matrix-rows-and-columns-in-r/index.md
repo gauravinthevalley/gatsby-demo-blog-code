@@ -40,7 +40,7 @@ Can we create the matrix already?
 
 Finally, right? Alright, printing out our `distance_matrix` in RStudio gives us the following:
 
-![alt text](http://res.cloudinary.com/dwstpvoqc/image/upload/v1522603265/matrix-in-r-1.png "Matrix without named rows and columns in RStudio")
+![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1522603265/matrix-in-r-1.png "Matrix without named rows and columns in RStudio")
 
 
 
@@ -52,7 +52,7 @@ Cool! Well, almost ... would be way cooler if we could just name the rows and co
 
 Look what we've got! A readable, understandable matrix:
 
-![alt text](http://res.cloudinary.com/dwstpvoqc/image/upload/v1522603531/matrix-in-r-rows-columns.png "Matrix with  named rows and columns in RStudio")
+![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1522603531/matrix-in-r-rows-columns.png "Matrix with  named rows and columns in RStudio")
 
 Wooohooo!! Why didn't I learn this amazing language before? I mean look at that matrix and the promise it shows. I've got my localities, my ponds, and my approx. distances all captured in a clear, readable matrix. I mean: what more do I need? 
 
