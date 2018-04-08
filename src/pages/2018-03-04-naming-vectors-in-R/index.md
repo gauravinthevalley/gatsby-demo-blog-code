@@ -30,7 +30,7 @@ These names are of actual hills that surround the Kathmandu Valley. I have yet t
 
 Moving on ... If you print out `hills_vector` now in RStudio, here's what you get: 
 
-![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1523127786/named-vectors-elements-in-r.png "Vector with named elements in RStudio")
+![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1523201740/named-vectors-elements-in-r.png "Vector with named elements in RStudio")
 
 Look at those 'named elements' (wonder if R calls them that). Isn't that just lovely? 
 
