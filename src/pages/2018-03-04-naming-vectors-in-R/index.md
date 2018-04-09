@@ -8,7 +8,7 @@ excerpt: "You see, I thought that the fact that you could give nice names to all
 
 ## Naming Vectors in R
 
-You see, I thought that the fact that you could give nice names to all columns and rows of a R Matrix was kind of a big deal (for some context, please refer to [my first ever blog post] (https://www.gauravinthevalley.com/naming-matrix-rows-and-columns-in-r/ "Naming Matrix Rows and Columns in R"). You just don't go around naming rows and columns of a 2-D array in many programming languages, right? I mean you might, but the majority of mainstream programming languages, I would assume, wouldn't make it so trivial; R does.
+You see, I thought that the fact that you could give nice names to all columns and rows of a R Matrix was kind of a big deal (for some context, please refer to [my first ever blog post] (https://www.gauravinthevalley.com/naming-matrix-rows-and-columns-in-r/ "Naming Matrix Rows and Columns in R")). You just don't go around naming rows and columns of a 2-D array in many programming languages, right? I mean you might, but the majority of mainstream programming languages, I would assume, wouldn't make it so trivial; R does.
 
 Forget 2-D arrays for a sec! How about a simple 1-D array? Can we also provide names to their elements in R? You bet! R calls 1-D arrays Vectors. Here's a way to declare a Vector in R:
 
