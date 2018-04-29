@@ -1,39 +1,30 @@
 ---
 path: "/naming-vectors-in-r-part-2"
-date: "2018-04-30"
-title: "Naming vectors in R"
+date: "2018-04-29"
+title: "Naming vectors in R - Part 2"
 tags: ['R', 'lists', 'vectors', 'matrices', 'kathmandu valley', 'hills']
 excerpt: "You see, I thought that the fact that you could give nice names to all columns and rows of a R Matrix was kind of a big deal (for some context, please refer to my first ever blog post). You just don't go around naming rows and columns of a 2-D array in many programming languages, right? I mean you might, but the majority of mainstream programming languages, I would assume, wouldn't make it so trivial"
 ---
 
 ## Naming Vectors in R, Part 2
 
-You see, I thought that the fact that you could give nice names to all columns and rows of a R Matrix was kind of a big deal (for some context, please refer to [my first ever blog post] (https://www.gauravinthevalley.com/naming-matrix-rows-and-columns-in-r/ "Naming Matrix Rows and Columns in R")). You just don't go around naming rows and columns of a 2-D array in many programming languages, right? I mean you might, but the majority of mainstream programming languages, I would assume, wouldn't make it so trivial; R does.
+What happens when you try and learn a new programming languages by only following half-baked tutorials, random YT videos, glossing over documentation, well ... doing almost everything but reading a book about the said programming language? You think you know how to solve a problem, albeit a simple one ... but you might not know (until some time has passed) how to solve that simple problem *the right way*.
 
-Forget 2-D arrays for a sec! How about a simple 1-D array? Can we also provide names to their elements in R? You bet! R calls 1-D arrays Vectors. Here's a way to declare a Vector in R:
+Case in point, please see my blog [Naming Vectors in R] (https://www.gauravinthevalley.com/naming-vectors-in-r/ "Naming Vectors in R"). Yes you can name Vectors in the manner I have described in that blog. But now that I'm taking [Data Science: R Basics] (https://courses.edx.org/courses/course-v1:HarvardX+PH125.1x+1T2018/course/ "this course") (highly receommended), I know that there's a super easy way to get the same result. 
 
-`hills_vector <- c("north", "north-west", "south", "south-west", "west")`
+How? 
 
-Print out the `hills_vector` in RStudio. Here's what you get:
+Here's how:
 
-![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1523206856/vectors-elements-in-r.png "Vector (elements not named) in RStudio")
-
-Like 1-D arrays in many modern day mainstream programming languages, Vectors in R hold values of the same data type. Matrices, that I talked about in [my first blog post] (https://www.gauravinthevalley.com/naming-matrix-rows-and-columns-in-r/ "Naming Matrix Rows and Columns in R"), also hold values of the same data type. Lists and Data Frames (both of which I will talk about in detail in a future post), can hold values of different data types. 
-
-So how do we actually provide names to our individual elements in a R vector? 
-
-Here's how (and you will notice that the syntax of doing so is similar to that of naming elements of a R Matrix):
-
-`names(hills_vector) <- c("shivapuri", "nagarjun", "phulchowki", "chandragiri", "champadevi")`
-
-These names are of actual hills that surround the Kathmandu Valley. I have yet to go to [Chandragiri] (https://en.wikipedia.org/wiki/Chandragiri_Hill,_Nepal "Chandagiri Hills"). They now have cable cars that take you up there. The wife and I did plan to go there some months ago and had even purcahsed tickets to that end. Something came up at her work, and we ended up giving the tickets to my parents who were visiting. They took some nice pictures. Since I don't have a FB account, and I'm not about to post pics of my parents visiting Chandragiri hills on my LinkedIn, I will post it here. (Has to be on an update now because I can't seem to find any on my machine right now.)
-
-Moving on ... If you print out `hills_vector` now in RStudio, here's what you get: 
+Instead of the paintaking process I've outlined just to print the following out:
 
 ![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1523201740/named-vectors-elements-in-r.png "Vector with named elements in RStudio")
 
-Look at those 'named elements' (wonder if R calls them that). Isn't that just lovely? 
+You could type the following simple one-liner and get the same result:
 
+`
+hills_vector <- c("shivapuri"="north", "nagarjun"="north-west", "phulchowki"="south", "chandragiri"="south-west", "champadevi"="west")`
 
- 
+Type that out in RStudio and see the following get printed out to the console:
 
+![alt text](https://res.cloudinary.com/dwstpvoqc/image/upload/v1523201740/named-vectors-elements-in-r.png "Vector with named elements in RStudio")
