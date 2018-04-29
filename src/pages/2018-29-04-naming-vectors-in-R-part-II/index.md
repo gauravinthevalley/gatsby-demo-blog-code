@@ -3,14 +3,14 @@ path: "/naming-vectors-in-r-part-2"
 date: "2018-04-29"
 title: "Naming vectors in R - Part 2"
 tags: ['R', 'lists', 'vectors', 'matrices', 'kathmandu valley', 'hills']
-excerpt: "You see, I thought that the fact that you could give nice names to all columns and rows of a R Matrix was kind of a big deal (for some context, please refer to my first ever blog post). You just don't go around naming rows and columns of a 2-D array in many programming languages, right? I mean you might, but the majority of mainstream programming languages, I would assume, wouldn't make it so trivial"
+excerpt: "What happens when you try and learn a new programming languages by only following half-baked tutorials, random YT videos, glossing over documentation, well ... doing almost everything but reading a book about the said programming language? You think you know how to solve a problem, albeit a simple one ... but you might not know (until some time has passed) how to solve that simple problem *the right way*."
 ---
 
 ## Naming Vectors in R, Part 2
 
 What happens when you try and learn a new programming languages by only following half-baked tutorials, random YT videos, glossing over documentation, well ... doing almost everything but reading a book about the said programming language? You think you know how to solve a problem, albeit a simple one ... but you might not know (until some time has passed) how to solve that simple problem *the right way*.
 
-Case in point, please see my blog [Naming Vectors in R] (https://www.gauravinthevalley.com/naming-vectors-in-r/ "Naming Vectors in R"). Yes you can name Vectors in the manner I have described in that blog. But now that I'm taking [Data Science: R Basics] (https://courses.edx.org/courses/course-v1:HarvardX+PH125.1x+1T2018/course/ "this course") (highly receommended), I know that there's a super easy way to get the same result. 
+Case in point, please see my blog [Naming Vectors in R] (https://www.gauravinthevalley.com/naming-vectors-in-r/ "Naming Vectors in R"). Yes you can name Vectors in the manner I have described in that blog. But now that I'm taking [Data Science: R Basics] (https://courses.edx.org/courses/course-v1:HarvardX+PH125.1x+1T2018/course/ "this course") (highly recommended), I know that there's a super easy way to get the same result. 
 
 How? 
 
